@@ -1,0 +1,40 @@
+Comparison plot
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Fig--- search_vsvolume_purina.png
+
+plot showing relationship between Position of Domain for keyword and average searched volume of that keyword .
+blue line indicating positive inclination showing 
+as position decreases (Position number increases) search.Volume 
+increases. 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Fig--- time_vs_volume.png
+
+plot showing Average search for cat food category keyword and other food items in different month.
+
+# lot of food items are searched in month of June ,July and August. 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Fig --- traffic_vs_cost_ .png
+
+plot showing close relationship between traffic driven to websites and cost paid to drive that traffic  for that particular word to Google AdWord. Positive relationship can be seen clearly .
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Fig--- traffic_vs_trafficCost_ _catfood.png
+plot showing close relationship between traffic driven to websites and cost paid to drive that traffic  for that particular word shown in different category of page like blog ,video site,images etc.
+
+# Reviews, Images and site link in order has great conversion rate.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Fig --- compe_vs_cpc_ .png
+
+plot showing relationship between earning per click  advertisers pay for a user's click on an ad triggered by given keyword and competitive density % ---1 showing 100 competition
+
+# keyword haveing large competion density has great conversion in CPC

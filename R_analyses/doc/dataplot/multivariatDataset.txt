@@ -1,0 +1,10 @@
+multivariat dataseta
+Fig ---- for Purina and whiskas  multivariat_1.png to multivariat_2.png
+
+All plot Visualizes multivariate dataset with respect to one of its variable in order. to find some sort of patterrn and correlation in dataset variable.
+
+like in multivaria _2.png -> with shifting in curve of log(search.Volume) cpc curve is also shifting and competiton is also being affected.
+
+multivariat_5.png -> shifting of CPC curve along with competion
+
+# cmpetion ,CPC and search.Volume are closely correlated.

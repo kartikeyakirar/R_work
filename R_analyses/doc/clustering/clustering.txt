@@ -1,0 +1,12 @@
+#clustering
+
+Fig--- determining_k_ .png
+
+for kmean clustering its important to determine the optimal value for k, k represents number of cluster in which data set can be divide optimally .
+
+for every cluster number ratio of betweeness (The between-cluster sum of squares) to totss (the total sum of squares ) is determine . by graph its threshold value is determined to find k value . each graph showing different k value .
+
+for
+ purina->20
+whiskas->14
+export(top cat food)->6 

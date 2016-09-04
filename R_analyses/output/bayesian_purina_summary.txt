@@ -1,0 +1,30 @@
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                       Mean        SD  Naive SE Time-series SE
+(Intercept)        0.351350 0.0154245 1.542e-04      1.542e-04
+Position          -0.002250 0.0002881 2.881e-06      2.881e-06
+Search.Volume      0.043834 0.0086902 8.690e-05      8.683e-05
+Traffic....        0.021157 0.1485543 1.486e-03      1.486e-03
+Competition        2.308919 0.0240652 2.407e-04      2.407e-04
+Number.of.Results -0.009059 0.0082641 8.264e-05      8.264e-05
+sigma2             2.028118 0.0166704 1.667e-04      1.667e-04
+
+2. Quantiles for each variable:
+
+                       2.5%       25%       50%       75%     97.5%
+(Intercept)        0.321322  0.340812  0.351445  0.361960  0.381236
+Position          -0.002805 -0.002449 -0.002252 -0.002054 -0.001681
+Search.Volume      0.027049  0.037942  0.043859  0.049689  0.060884
+Traffic....       -0.271441 -0.078324  0.021033  0.121401  0.313402
+Competition        2.262166  2.292742  2.308882  2.324987  2.356254
+Number.of.Results -0.025272 -0.014664 -0.009052 -0.003447  0.007107
+sigma2             1.995355  2.017064  2.028034  2.039198  2.060762
+

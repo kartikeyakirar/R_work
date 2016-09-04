@@ -1,0 +1,454 @@
+Top cat Food dataset summary
+                       Keyword         Volume        Keyword.Difficulty
+ 4 health cat food         :   1   Min.   :   10.0   Min.   : 0.00     
+ 4health cat food          :   1   1st Qu.:   20.0   1st Qu.:70.69     
+ 4health cat food recall   :   1   Median :   40.0   Median :76.06     
+ 4 health cat food review  :   1   Mean   :  119.6   Mean   :70.00     
+ 5 human foods cats can eat:   1   3rd Qu.:   90.0   3rd Qu.:79.53     
+ 5 star cat food           :   1   Max.   :18100.0   Max.   :99.43     
+ (Other)                   :4253                                       
+   CPC..USD.      Competitive.Density               SERP.Features 
+ Min.   : 0.000   Min.   :0.000       Review, Video        :1449  
+ 1st Qu.: 0.450   1st Qu.:0.450       Review               : 797  
+ Median : 2.030   Median :0.950       Images, Review, Video: 534  
+ Mean   : 2.381   Mean   :0.721       Video                : 303  
+ 3rd Qu.: 3.530   3rd Qu.:1.000       Images, Review       : 185  
+ Max.   :17.940   Max.   :1.000       (Other)              : 571  
+                                      NA's                 : 420  
+Purina.com dataset summary
+                        Keyword         Position      Previous.Position
+ pet food purina            :    7   Min.   :  1.00   Min.   :  0.00   
+ purina products            :    7   1st Qu.: 12.75   1st Qu.:  4.00   
+ purina beneful cat food    :    6   Median : 31.00   Median : 19.00   
+ purina cat food ingredients:    6   Mean   : 38.10   Mean   : 28.26   
+ purina for dogs            :    6   3rd Qu.: 61.00   3rd Qu.: 48.00   
+ purina pets                :    6   Max.   :101.00   Max.   :100.00   
+ (Other)                    :29962                                     
+ Search.Volume      Keyword.Difficulty.Index      CPC         
+ Min.   :-0.06650   Min.   : 0.00            Min.   : 0.0000  
+ 1st Qu.:-0.06548   1st Qu.:74.25            1st Qu.: 0.0000  
+ Median :-0.06344   Median :79.20            Median : 0.0000  
+ Mean   : 0.00000   Mean   :73.96            Mean   : 0.8667  
+ 3rd Qu.:-0.05834   3rd Qu.:82.61            3rd Qu.: 1.1900  
+ Max.   :68.57386   Max.   :99.72            Max.   :27.0400  
+                                                              
+                                                                                Url       
+ https://www.purina.com/dogs/dog-breeds/dog-breed-selector                        : 1202  
+ https://www.purina.com/                                                          :  929  
+ https://www.purina.com/dogs/dog-breeds/collections/best-indoor-dog-breeds        :  767  
+ https://www.purina.com/dogs/dog-breeds/collections/dog-breeds-with-short-hair    :  662  
+ https://www.purina.com/dogs/dog-breeds/collections/best-dog-breeds-for-families  :  453  
+ https://www.purina.com/dogs/dog-breeds/collections/dog-breeds-with-light-shedding:  382  
+ (Other)                                                                          :25605  
+  Traffic....       Traffic.Cost....     Competition     Number.of.Results
+ Min.   :0.000000   Min.   : 0.000000   Min.   :0.0000   Min.   :-0.1938  
+ 1st Qu.:0.000000   1st Qu.: 0.000000   1st Qu.:0.0200   1st Qu.:-0.1898  
+ Median :0.000000   Median : 0.000000   Median :0.0900   Median :-0.1845  
+ Mean   :0.002752   Mean   : 0.002913   Mean   :0.2603   Mean   : 0.0000  
+ 3rd Qu.:0.000000   3rd Qu.: 0.000000   3rd Qu.:0.3600   3rd Qu.:-0.1416  
+ Max.   :5.350000   Max.   :10.660000   Max.   :1.0000   Max.   :32.9752  
+                                                                          
+                                                         Trends     
+ 1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00: 1279  
+ 1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50:   94  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00:   92  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50:   77  
+ 0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50:   66  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50,0.50:   62  
+ (Other)                                                    :28330  
+   Timestamp                grouping    
+ Min.   :2015-12-30   Other Food:28813  
+ 1st Qu.:2016-07-05   Cat Food  : 1187  
+ Median :2016-07-22                     
+ Mean   :2016-07-14                     
+ 3rd Qu.:2016-07-30                     
+ Max.   :2016-08-21                     
+                                        
+Top cat Food dataset summary
+                       Keyword         Volume        Keyword.Difficulty
+ 4 health cat food         :   1   Min.   :   10.0   Min.   : 0.00     
+ 4health cat food          :   1   1st Qu.:   20.0   1st Qu.:70.69     
+ 4health cat food recall   :   1   Median :   40.0   Median :76.06     
+ 4 health cat food review  :   1   Mean   :  119.6   Mean   :70.00     
+ 5 human foods cats can eat:   1   3rd Qu.:   90.0   3rd Qu.:79.53     
+ 5 star cat food           :   1   Max.   :18100.0   Max.   :99.43     
+ (Other)                   :4253                                       
+   CPC..USD.      Competitive.Density               SERP.Features 
+ Min.   : 0.000   Min.   :0.000       Review, Video        :1449  
+ 1st Qu.: 0.450   1st Qu.:0.450       Review               : 797  
+ Median : 2.030   Median :0.950       Images, Review, Video: 534  
+ Mean   : 2.381   Mean   :0.721       Video                : 303  
+ 3rd Qu.: 3.530   3rd Qu.:1.000       Images, Review       : 185  
+ Max.   :17.940   Max.   :1.000       (Other)              : 571  
+                                      NA's                 : 420  
+Top cat Food dataset description
+                    vars    n    mean      sd  median trimmed     mad min      max
+Keyword*               1 4259 2130.00 1229.61 2130.00 2130.00 1578.97   1  4259.00
+Volume                 2 4259  119.56  484.90   40.00   50.95   44.48  10 18100.00
+Keyword.Difficulty     3 4259   70.00   20.41   76.06   75.00    6.09   0    99.43
+CPC..USD.              4 4259    2.38    2.23    2.03    2.08    2.27   0    17.94
+Competitive.Density    5 4259    0.72    0.36    0.95    0.77    0.07   0     1.00
+SERP.Features*         6 3839   22.07    9.42   27.00   22.70    4.45   1    36.00
+                       range  skew kurtosis    se
+Keyword*             4258.00  0.00    -1.20 18.84
+Volume              18090.00 18.79   535.96  7.43
+Keyword.Difficulty     99.43 -2.79     6.82  0.31
+CPC..USD.              17.94  1.34     2.96  0.03
+Competitive.Density     1.00 -0.94    -0.69  0.01
+SERP.Features*         35.00 -0.84    -0.62  0.15
+Purina.com dataset summary
+                        Keyword         Position      Previous.Position
+ pet food purina            :    7   Min.   :  1.00   Min.   :  0.00   
+ purina products            :    7   1st Qu.: 12.75   1st Qu.:  4.00   
+ purina beneful cat food    :    6   Median : 31.00   Median : 19.00   
+ purina cat food ingredients:    6   Mean   : 38.10   Mean   : 28.26   
+ purina for dogs            :    6   3rd Qu.: 61.00   3rd Qu.: 48.00   
+ purina pets                :    6   Max.   :101.00   Max.   :100.00   
+ (Other)                    :29962                                     
+ Search.Volume      Keyword.Difficulty.Index      CPC         
+ Min.   :-0.06650   Min.   : 0.00            Min.   : 0.0000  
+ 1st Qu.:-0.06548   1st Qu.:74.25            1st Qu.: 0.0000  
+ Median :-0.06344   Median :79.20            Median : 0.0000  
+ Mean   : 0.00000   Mean   :73.96            Mean   : 0.8667  
+ 3rd Qu.:-0.05834   3rd Qu.:82.61            3rd Qu.: 1.1900  
+ Max.   :68.57386   Max.   :99.72            Max.   :27.0400  
+                                                              
+                                                                                Url       
+ https://www.purina.com/dogs/dog-breeds/dog-breed-selector                        : 1202  
+ https://www.purina.com/                                                          :  929  
+ https://www.purina.com/dogs/dog-breeds/collections/best-indoor-dog-breeds        :  767  
+ https://www.purina.com/dogs/dog-breeds/collections/dog-breeds-with-short-hair    :  662  
+ https://www.purina.com/dogs/dog-breeds/collections/best-dog-breeds-for-families  :  453  
+ https://www.purina.com/dogs/dog-breeds/collections/dog-breeds-with-light-shedding:  382  
+ (Other)                                                                          :25605  
+  Traffic....       Traffic.Cost....     Competition     Number.of.Results
+ Min.   :0.000000   Min.   : 0.000000   Min.   :0.0000   Min.   :-0.1938  
+ 1st Qu.:0.000000   1st Qu.: 0.000000   1st Qu.:0.0200   1st Qu.:-0.1898  
+ Median :0.000000   Median : 0.000000   Median :0.0900   Median :-0.1845  
+ Mean   :0.002752   Mean   : 0.002913   Mean   :0.2603   Mean   : 0.0000  
+ 3rd Qu.:0.000000   3rd Qu.: 0.000000   3rd Qu.:0.3600   3rd Qu.:-0.1416  
+ Max.   :5.350000   Max.   :10.660000   Max.   :1.0000   Max.   :32.9752  
+                                                                          
+                                                         Trends     
+ 1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00: 1279  
+ 1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50:   94  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00:   92  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50:   77  
+ 0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50:   66  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50,0.50:   62  
+ (Other)                                                    :28330  
+   Timestamp                grouping    
+ Min.   :2015-12-30   Other Food:28813  
+ 1st Qu.:2016-07-05   Cat Food  : 1187  
+ Median :2016-07-22                     
+ Mean   :2016-07-14                     
+ 3rd Qu.:2016-07-30                     
+ Max.   :2016-08-21                     
+                                        
+Purina.com dataset description
+                         vars     n     mean      sd   median  trimmed      mad   min
+Keyword*                    1 30000 14641.17 8397.90 14734.50 14656.15 10688.06  1.00
+Position                    2 30000    38.10   28.76    31.00    35.81    32.62  1.00
+Previous.Position           3 30000    28.26   28.20    19.00    24.67    28.17  0.00
+Search.Volume               4 30000     0.00    1.00    -0.06    -0.06     0.00 -0.07
+Keyword.Difficulty.Index    5 30000    73.96   18.96    79.20    78.28     5.81  0.00
+CPC                         6 30000     0.87    1.63     0.00     0.49     0.00  0.00
+Url*                        7 30000   473.73  180.07   457.00   473.37   180.88  1.00
+Traffic....                 8 30000     0.00    0.06     0.00     0.00     0.00  0.00
+Traffic.Cost....            9 30000     0.00    0.09     0.00     0.00     0.00  0.00
+Competition                10 30000     0.26    0.34     0.09     0.20     0.13  0.00
+Number.of.Results          11 30000     0.00    1.00    -0.18    -0.16     0.01 -0.19
+Trends*                    12 30000 13178.46 7580.91 12914.50 13194.20  9655.43  1.00
+Timestamp*                 13 30000      NaN      NA       NA      NaN       NA   Inf
+grouping*                  14 30000     1.04    0.19     1.00     1.00     0.00  1.00
+                              max    range  skew kurtosis    se
+Keyword*                 29128.00 29127.00 -0.02    -1.20 48.49
+Position                   101.00   100.00  0.53    -0.96  0.17
+Previous.Position          100.00   100.00  0.82    -0.52  0.16
+Search.Volume               68.57    68.64 39.09  1950.48  0.01
+Keyword.Difficulty.Index    99.72    99.72 -3.20     9.66  0.11
+CPC                         27.04    27.04  3.12    15.19  0.01
+Url*                       828.00   827.00 -0.01    -0.50  1.04
+Traffic....                  5.35     5.35 63.36  5114.81  0.00
+Traffic.Cost....            10.66    10.66 82.53  8495.23  0.00
+Competition                  1.00     1.00  1.31     0.19  0.00
+Number.of.Results           32.98    33.17 17.50   422.79  0.01
+Trends*                  25217.00 25216.00  0.02    -1.23 43.77
+Timestamp*                   -Inf     -Inf    NA       NA    NA
+grouping*                    2.00     1.00  4.72    20.31  0.00
+whiskas.com dataset summary
+                     Keyword        Position      Previous.Position Search.Volume    
+ whiskas cat food pouches:   7   Min.   :  1.00   Min.   :  0.0     Min.   :   10.0  
+ whiskas products        :   7   1st Qu.: 31.00   1st Qu.:  1.0     1st Qu.:   20.0  
+ whiskas ingredients     :   6   Median : 55.00   Median : 37.5     Median :   30.0  
+ whiskas dry             :   5   Mean   : 53.48   Mean   : 37.7     Mean   :  116.4  
+ whiskas dry food        :   5   3rd Qu.: 77.00   3rd Qu.: 65.0     3rd Qu.:   70.0  
+ cat food whiskas        :   4   Max.   :100.00   Max.   :100.0     Max.   :18100.0  
+ (Other)                 :3216                                                       
+ Keyword.Difficulty.Index      CPC        
+ Min.   : 0.00            Min.   : 0.000  
+ 1st Qu.:72.56            1st Qu.: 0.000  
+ Median :76.97            Median : 0.000  
+ Mean   :71.06            Mean   : 1.293  
+ 3rd Qu.:80.42            3rd Qu.: 1.877  
+ Max.   :94.57            Max.   :18.360  
+                                          
+                                                                     Url      
+ http://www.whiskas.com/CatsCorner/Article/Kittens-Eat-and-Eat-and-Eat : 474  
+ http://www.whiskas.com/                                               : 330  
+ http://www.whiskas.com/CatsCorner/Article/When-Cat-Owners-Get-Pregnant: 278  
+ http://www.whiskas.com/CatsCorner/Article/Caring-for-Kittens-and-Mom  : 217  
+ http://www.whiskas.com/CatsCorner/Article/Caring-for-Kidney-Failure   : 140  
+ http://www.whiskas.com/CatsCorner/Article/Caring-for-Acute-Diarrhea   : 113  
+ (Other)                                                               :1698  
+  Traffic....       Traffic.Cost....    Competition     Number.of.Results  
+ Min.   : 0.00000   Min.   : 0.00000   Min.   :0.0000   Min.   :0.000e+00  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.:0.0200   1st Qu.:4.912e+05  
+ Median : 0.00000   Median : 0.00000   Median :0.1700   Median :1.200e+06  
+ Mean   : 0.02637   Mean   : 0.02668   Mean   :0.3296   Mean   :1.612e+07  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.:0.5700   3rd Qu.:7.685e+06  
+ Max.   :24.32000   Max.   :19.54000   Max.   :1.0000   Max.   :1.490e+09  
+                                                                           
+                                                         Trends    
+ 1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00: 133  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00:  13  
+ 0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50:  13  
+ 0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00:  11  
+ 0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50:  11  
+ 0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50:  10  
+ (Other)                                                    :3059  
+   Timestamp              Page                 grouping   
+ Min.   :2016-01-14   Length:3250        Other Food:2709  
+ 1st Qu.:2016-07-03   Class :character   Cat Food  : 541  
+ Median :2016-07-20   Mode  :character                    
+ Mean   :2016-07-12                                       
+ 3rd Qu.:2016-07-29                                       
+ Max.   :2016-08-21                                       
+                                                          
+whiskas.com dataset description
+                         vars    n        mean          sd     median    trimmed
+Keyword*                    1 3250     1606.30      922.08    1614.50    1610.77
+Position                    2 3250       53.48       28.11      55.00      54.27
+Previous.Position           3 3250       37.70       32.07      37.50      35.70
+Search.Volume               4 3250      116.41      520.36      30.00      46.03
+Keyword.Difficulty.Index    5 3250       71.06       21.43      76.97      76.39
+CPC                         6 3250        1.29        2.31       0.00       0.76
+Url*                        7 3250       34.79       28.63      33.00      32.05
+Traffic....                 8 3250        0.03        0.50       0.00       0.00
+Traffic.Cost....            9 3250        0.03        0.48       0.00       0.00
+Competition                10 3250        0.33        0.36       0.17       0.29
+Number.of.Results          11 3250 16116925.85 64037777.97 1200000.00 4704794.23
+Trends*                    12 3250     1492.49      863.53    1459.50    1495.77
+Timestamp*                 13 3250         NaN          NA         NA        NaN
+Page*                      14 3250         NaN          NA         NA        NaN
+grouping*                  15 3250        1.17        0.37       1.00       1.08
+                                mad min       max     range  skew kurtosis         se
+Keyword*                    1194.23   1 3.118e+03 3.117e+03 -0.02    -1.23      16.17
+Position                      34.10   1 1.000e+02 9.900e+01 -0.18    -1.02       0.49
+Previous.Position             49.67   0 1.000e+02 1.000e+02  0.24    -1.29       0.56
+Search.Volume                 29.65  10 1.810e+04 1.809e+04 19.06   521.56       9.13
+Keyword.Difficulty.Index       5.68   0 9.457e+01 9.457e+01 -2.77     6.44       0.38
+CPC                            0.00   0 1.836e+01 1.836e+01  2.66     8.82       0.04
+Url*                          38.55   1 1.090e+02 1.080e+02  0.60    -0.67       0.50
+Traffic....                    0.00   0 2.432e+01 2.432e+01 40.58  1863.45       0.01
+Traffic.Cost....               0.00   0 1.954e+01 1.954e+01 33.29  1236.46       0.01
+Competition                    0.25   0 1.000e+00 1.000e+00  0.86    -0.79       0.01
+Number.of.Results        1482600.00   0 1.490e+09 1.490e+09 12.01   205.45 1123296.93
+Trends*                     1097.12   1 2.873e+03 2.872e+03 -0.01    -1.18      15.15
+Timestamp*                       NA Inf      -Inf      -Inf    NA       NA         NA
+Page*                            NA Inf      -Inf      -Inf    NA       NA         NA
+grouping*                      0.00   1 2.000e+00 1.000e+00  1.79     1.20       0.01
+Top cat Food dataset summary
+                       Keyword         Volume        Keyword.Difficulty   CPC..USD.     
+ 4 health cat food         :   1   Min.   :   10.0   Min.   : 0.00      Min.   : 0.000  
+ 4health cat food          :   1   1st Qu.:   20.0   1st Qu.:70.69      1st Qu.: 0.450  
+ 4health cat food recall   :   1   Median :   40.0   Median :76.06      Median : 2.030  
+ 4 health cat food review  :   1   Mean   :  119.6   Mean   :70.00      Mean   : 2.381  
+ 5 human foods cats can eat:   1   3rd Qu.:   90.0   3rd Qu.:79.53      3rd Qu.: 3.530  
+ 5 star cat food           :   1   Max.   :18100.0   Max.   :99.43      Max.   :17.940  
+ (Other)                   :4253                                                        
+ Competitive.Density               SERP.Features 
+ Min.   :0.000       Review, Video        :1449  
+ 1st Qu.:0.450       Review               : 797  
+ Median :0.950       Images, Review, Video: 534  
+ Mean   :0.721       Video                : 303  
+ 3rd Qu.:1.000       Images, Review       : 185  
+ Max.   :1.000       (Other)              : 571  
+                     NA's                 : 420  
+Top cat Food dataset description
+                    vars    n    mean      sd  median trimmed     mad min      max
+Keyword*               1 4259 2130.00 1229.61 2130.00 2130.00 1578.97   1  4259.00
+Volume                 2 4259  119.56  484.90   40.00   50.95   44.48  10 18100.00
+Keyword.Difficulty     3 4259   70.00   20.41   76.06   75.00    6.09   0    99.43
+CPC..USD.              4 4259    2.38    2.23    2.03    2.08    2.27   0    17.94
+Competitive.Density    5 4259    0.72    0.36    0.95    0.77    0.07   0     1.00
+SERP.Features*         6 3839   22.07    9.42   27.00   22.70    4.45   1    36.00
+                       range  skew kurtosis    se
+Keyword*             4258.00  0.00    -1.20 18.84
+Volume              18090.00 18.79   535.96  7.43
+Keyword.Difficulty     99.43 -2.79     6.82  0.31
+CPC..USD.              17.94  1.34     2.96  0.03
+Competitive.Density     1.00 -0.94    -0.69  0.01
+SERP.Features*         35.00 -0.84    -0.62  0.15
+Purina.com dataset summary
+                        Keyword         Position      Previous.Position Search.Volume   
+ pet food purina            :    7   Min.   :  1.00   Min.   :  0.00    Min.   :    10  
+ purina products            :    7   1st Qu.: 12.75   1st Qu.:  4.00    1st Qu.:    20  
+ purina beneful cat food    :    6   Median : 31.00   Median : 19.00    Median :    40  
+ purina cat food ingredients:    6   Mean   : 38.10   Mean   : 28.26    Mean   :   662  
+ purina for dogs            :    6   3rd Qu.: 61.00   3rd Qu.: 48.00    3rd Qu.:    90  
+ purina pets                :    6   Max.   :101.00   Max.   :100.00    Max.   :673000  
+ (Other)                    :29962                                                      
+ Keyword.Difficulty.Index      CPC         
+ Min.   : 0.00            Min.   : 0.0000  
+ 1st Qu.:74.25            1st Qu.: 0.0000  
+ Median :79.20            Median : 0.0000  
+ Mean   :73.96            Mean   : 0.8667  
+ 3rd Qu.:82.61            3rd Qu.: 1.1900  
+ Max.   :99.72            Max.   :27.0400  
+                                           
+                                                                                Url       
+ https://www.purina.com/dogs/dog-breeds/dog-breed-selector                        : 1202  
+ https://www.purina.com/                                                          :  929  
+ https://www.purina.com/dogs/dog-breeds/collections/best-indoor-dog-breeds        :  767  
+ https://www.purina.com/dogs/dog-breeds/collections/dog-breeds-with-short-hair    :  662  
+ https://www.purina.com/dogs/dog-breeds/collections/best-dog-breeds-for-families  :  453  
+ https://www.purina.com/dogs/dog-breeds/collections/dog-breeds-with-light-shedding:  382  
+ (Other)                                                                          :25605  
+  Traffic....       Traffic.Cost....     Competition     Number.of.Results  
+ Min.   :0.000000   Min.   : 0.000000   Min.   :0.0000   Min.   :0.000e+00  
+ 1st Qu.:0.000000   1st Qu.: 0.000000   1st Qu.:0.0200   1st Qu.:4.570e+05  
+ Median :0.000000   Median : 0.000000   Median :0.0900   Median :1.060e+06  
+ Mean   :0.002752   Mean   : 0.002913   Mean   :0.2603   Mean   :2.203e+07  
+ 3rd Qu.:0.000000   3rd Qu.: 0.000000   3rd Qu.:0.3600   3rd Qu.:5.930e+06  
+ Max.   :5.350000   Max.   :10.660000   Max.   :1.0000   Max.   :3.770e+09  
+                                                                            
+                                                         Trends        Timestamp         
+ 1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00: 1279   Min.   :2015-12-30  
+ 1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50:   94   1st Qu.:2016-07-05  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00:   92   Median :2016-07-22  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50:   77   Mean   :2016-07-14  
+ 0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50:   66   3rd Qu.:2016-07-30  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50,0.50:   62   Max.   :2016-08-21  
+ (Other)                                                    :28330                       
+       grouping    
+ Other Food:28813  
+ Cat Food  : 1187  
+                   
+                   
+                   
+                   
+                   
+Purina.com dataset description
+                         vars     n        mean           sd     median    trimmed
+Keyword*                    1 30000    14641.17      8397.90   14734.50   14656.15
+Position                    2 30000       38.10        28.76      31.00      35.81
+Previous.Position           3 30000       28.26        28.20      19.00      24.67
+Search.Volume               4 30000      661.96      9804.58      40.00      58.62
+Keyword.Difficulty.Index    5 30000       73.96        18.96      79.20      78.28
+CPC                         6 30000        0.87         1.63       0.00       0.49
+Url*                        7 30000      473.73       180.07     457.00     473.37
+Traffic....                 8 30000        0.00         0.06       0.00       0.00
+Traffic.Cost....            9 30000        0.00         0.09       0.00       0.00
+Competition                10 30000        0.26         0.34       0.09       0.20
+Number.of.Results          11 30000 22027075.20 113660271.74 1060000.00 3977307.50
+Trends*                    12 30000    13178.46      7580.91   12914.50   13194.20
+Timestamp*                 13 30000         NaN           NA         NA        NaN
+grouping*                  14 30000        1.04         0.19       1.00       1.00
+                                mad min        max      range  skew kurtosis        se
+Keyword*                   10688.06   1 2.9128e+04 2.9127e+04 -0.02    -1.20     48.49
+Position                      32.62   1 1.0100e+02 1.0000e+02  0.53    -0.96      0.17
+Previous.Position             28.17   0 1.0000e+02 1.0000e+02  0.82    -0.52      0.16
+Search.Volume                 44.48  10 6.7300e+05 6.7299e+05 39.09  1950.48     56.61
+Keyword.Difficulty.Index       5.81   0 9.9720e+01 9.9720e+01 -3.20     9.66      0.11
+CPC                            0.00   0 2.7040e+01 2.7040e+01  3.12    15.19      0.01
+Url*                         180.88   1 8.2800e+02 8.2700e+02 -0.01    -0.50      1.04
+Traffic....                    0.00   0 5.3500e+00 5.3500e+00 63.36  5114.81      0.00
+Traffic.Cost....               0.00   0 1.0660e+01 1.0660e+01 82.53  8495.23      0.00
+Competition                    0.13   0 1.0000e+00 1.0000e+00  1.31     0.19      0.00
+Number.of.Results        1349166.00   0 3.7700e+09 3.7700e+09 17.50   422.79 656217.88
+Trends*                     9655.43   1 2.5217e+04 2.5216e+04  0.02    -1.23     43.77
+Timestamp*                       NA Inf       -Inf       -Inf    NA       NA        NA
+grouping*                      0.00   1 2.0000e+00 1.0000e+00  4.72    20.31      0.00
+whiskas.com dataset summary
+                     Keyword        Position      Previous.Position Search.Volume    
+ whiskas cat food pouches:   7   Min.   :  1.00   Min.   :  0.0     Min.   :   10.0  
+ whiskas products        :   7   1st Qu.: 31.00   1st Qu.:  1.0     1st Qu.:   20.0  
+ whiskas ingredients     :   6   Median : 55.00   Median : 37.5     Median :   30.0  
+ whiskas dry             :   5   Mean   : 53.48   Mean   : 37.7     Mean   :  116.4  
+ whiskas dry food        :   5   3rd Qu.: 77.00   3rd Qu.: 65.0     3rd Qu.:   70.0  
+ cat food whiskas        :   4   Max.   :100.00   Max.   :100.0     Max.   :18100.0  
+ (Other)                 :3216                                                       
+ Keyword.Difficulty.Index      CPC        
+ Min.   : 0.00            Min.   : 0.000  
+ 1st Qu.:72.56            1st Qu.: 0.000  
+ Median :76.97            Median : 0.000  
+ Mean   :71.06            Mean   : 1.293  
+ 3rd Qu.:80.42            3rd Qu.: 1.877  
+ Max.   :94.57            Max.   :18.360  
+                                          
+                                                                     Url      
+ http://www.whiskas.com/CatsCorner/Article/Kittens-Eat-and-Eat-and-Eat : 474  
+ http://www.whiskas.com/                                               : 330  
+ http://www.whiskas.com/CatsCorner/Article/When-Cat-Owners-Get-Pregnant: 278  
+ http://www.whiskas.com/CatsCorner/Article/Caring-for-Kittens-and-Mom  : 217  
+ http://www.whiskas.com/CatsCorner/Article/Caring-for-Kidney-Failure   : 140  
+ http://www.whiskas.com/CatsCorner/Article/Caring-for-Acute-Diarrhea   : 113  
+ (Other)                                                               :1698  
+  Traffic....       Traffic.Cost....    Competition     Number.of.Results  
+ Min.   : 0.00000   Min.   : 0.00000   Min.   :0.0000   Min.   :0.000e+00  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.:0.0200   1st Qu.:4.912e+05  
+ Median : 0.00000   Median : 0.00000   Median :0.1700   Median :1.200e+06  
+ Mean   : 0.02637   Mean   : 0.02668   Mean   :0.3296   Mean   :1.612e+07  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.:0.5700   3rd Qu.:7.685e+06  
+ Max.   :24.32000   Max.   :19.54000   Max.   :1.0000   Max.   :1.490e+09  
+                                                                           
+                                                         Trends       Timestamp         
+ 1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00: 133   Min.   :2016-01-14  
+ 0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50,1.00:  13   1st Qu.:2016-07-03  
+ 0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50:  13   Median :2016-07-20  
+ 0.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00:  11   Mean   :2016-07-12  
+ 0.50,0.50,0.50,0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50:  11   3rd Qu.:2016-07-29  
+ 0.50,0.50,0.50,1.00,0.50,0.50,0.50,0.50,0.50,0.50,0.50,0.50:  10   Max.   :2016-08-21  
+ (Other)                                                    :3059                       
+     Page                 grouping   
+ Length:3250        Other Food:2709  
+ Class :character   Cat Food  : 541  
+ Mode  :character                    
+                                     
+                                     
+                                     
+                                     
+whiskas.com dataset description
+                         vars    n        mean          sd     median    trimmed
+Keyword*                    1 3250     1606.30      922.08    1614.50    1610.77
+Position                    2 3250       53.48       28.11      55.00      54.27
+Previous.Position           3 3250       37.70       32.07      37.50      35.70
+Search.Volume               4 3250      116.41      520.36      30.00      46.03
+Keyword.Difficulty.Index    5 3250       71.06       21.43      76.97      76.39
+CPC                         6 3250        1.29        2.31       0.00       0.76
+Url*                        7 3250       34.79       28.63      33.00      32.05
+Traffic....                 8 3250        0.03        0.50       0.00       0.00
+Traffic.Cost....            9 3250        0.03        0.48       0.00       0.00
+Competition                10 3250        0.33        0.36       0.17       0.29
+Number.of.Results          11 3250 16116925.85 64037777.97 1200000.00 4704794.23
+Trends*                    12 3250     1492.49      863.53    1459.50    1495.77
+Timestamp*                 13 3250         NaN          NA         NA        NaN
+Page*                      14 3250         NaN          NA         NA        NaN
+grouping*                  15 3250        1.17        0.37       1.00       1.08
+                                mad min       max     range  skew kurtosis         se
+Keyword*                    1194.23   1 3.118e+03 3.117e+03 -0.02    -1.23      16.17
+Position                      34.10   1 1.000e+02 9.900e+01 -0.18    -1.02       0.49
+Previous.Position             49.67   0 1.000e+02 1.000e+02  0.24    -1.29       0.56
+Search.Volume                 29.65  10 1.810e+04 1.809e+04 19.06   521.56       9.13
+Keyword.Difficulty.Index       5.68   0 9.457e+01 9.457e+01 -2.77     6.44       0.38
+CPC                            0.00   0 1.836e+01 1.836e+01  2.66     8.82       0.04
+Url*                          38.55   1 1.090e+02 1.080e+02  0.60    -0.67       0.50
+Traffic....                    0.00   0 2.432e+01 2.432e+01 40.58  1863.45       0.01
+Traffic.Cost....               0.00   0 1.954e+01 1.954e+01 33.29  1236.46       0.01
+Competition                    0.25   0 1.000e+00 1.000e+00  0.86    -0.79       0.01
+Number.of.Results        1482600.00   0 1.490e+09 1.490e+09 12.01   205.45 1123296.93
+Trends*                     1097.12   1 2.873e+03 2.872e+03 -0.01    -1.18      15.15
+Timestamp*                       NA Inf      -Inf      -Inf    NA       NA         NA
+Page*                            NA Inf      -Inf      -Inf    NA       NA         NA
+grouping*                      0.00   1 2.000e+00 1.000e+00  1.79     1.20       0.01

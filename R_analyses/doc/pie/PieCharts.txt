@@ -1,0 +1,17 @@
+PieCharts
+
+Fig--- catFood_searched_eachdomain.png
+
+According to top cat food searched  keyword dataset Purina and whiskas keywords are divided in two category of catFood or otherFood 
+Pie plot showing % share of caFood in each domain of total search.
+From plot one can easily infer that catFood is mostly searched in Purina .
+
+
+
+Fig--- pie_for_eachdomain.png
+
+Pie plot showing keyword % share of each doamin in Top catFood dataset.
+% share of purina domain catFood is more then other whiskas.
+
+
+#Purina is best place for catFood items

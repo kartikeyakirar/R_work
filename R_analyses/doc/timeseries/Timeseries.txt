@@ -1,0 +1,6 @@
+# Timeseries analysis
+
+Fig Costperclick_forcast_ .png ,traffic_ts_forcast_ .png
+
+plot dipicting information about variation in traffic and CPC variable with time in both domains. shaded area represent the forcasted region for variable in future time based on past time series ..as times series is highly irregular prediction further time wit respect to forcaste is not possible.
+

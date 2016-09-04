@@ -1,0 +1,6 @@
+#clustering
+
+Fig--- sample_hclust .png
+ plot showing average linkages by hierarchical clustering based on euclidien distance matrix plot is just showing for 1st 70 observation ...
+
+ # showing how different data entity are related based on distance matrix and can be clustered

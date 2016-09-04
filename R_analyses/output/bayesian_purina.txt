@@ -1,0 +1,16 @@
+rRaftery and Lewis's diagnostic test
+
+Quantile (q) = 0.025
+Accuracy (r) = +/- 0.005
+Probability (s) = 0.95 
+                                                         
+                   Burn-in  Total Lower bound  Dependence
+                   (M)      (N)   (Nmin)       factor (I)
+ (Intercept)       2        3865  3746         1.030     
+ Position          2        3650  3746         0.974     
+ Search.Volume     2        3680  3746         0.982     
+ Traffic....       2        3590  3746         0.958     
+ Competition       2        3741  3746         0.999     
+ Number.of.Results 2        3741  3746         0.999     
+ sigma2            2        3802  3746         1.010     
+

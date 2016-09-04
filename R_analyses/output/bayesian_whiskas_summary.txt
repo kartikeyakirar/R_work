@@ -1,0 +1,180 @@
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                        Mean        SD  Naive SE Time-series SE
+(Intercept)        4.222e-01 8.799e-02 8.799e-04      8.799e-04
+Position          -1.024e-03 1.318e-03 1.318e-05      1.318e-05
+Search.Volume      2.578e-04 7.063e-05 7.063e-07      7.063e-07
+Traffic....       -1.229e-01 7.462e-02 7.462e-04      7.462e-04
+Competition        2.757e+00 1.001e-01 1.001e-03      1.001e-03
+Number.of.Results -6.084e-10 5.745e-10 5.745e-12      0.000e+00
+sigma2             4.307e+00 1.076e-01 1.076e-03      1.092e-03
+
+2. Quantiles for each variable:
+
+                        2.5%        25%        50%        75%     97.5%
+(Intercept)        2.521e-01  3.618e-01  4.224e-01  4.828e-01 5.924e-01
+Position          -3.541e-03 -1.932e-03 -1.028e-03 -1.187e-04 1.563e-03
+Search.Volume      1.187e-04  2.102e-04  2.578e-04  3.055e-04 3.973e-04
+Traffic....       -2.682e-01 -1.729e-01 -1.232e-01 -7.301e-02 2.511e-02
+Competition        2.562e+00  2.690e+00  2.758e+00  2.825e+00 2.952e+00
+Number.of.Results -1.747e-09 -9.965e-10 -6.059e-10 -2.177e-10 5.162e-10
+sigma2             4.099e+00  4.234e+00  4.305e+00  4.378e+00 4.522e+00
+
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                        Mean        SD  Naive SE Time-series SE
+(Intercept)        4.222e-01 8.799e-02 8.799e-04      8.799e-04
+Position          -1.024e-03 1.318e-03 1.318e-05      1.318e-05
+Search.Volume      2.578e-04 7.063e-05 7.063e-07      7.063e-07
+Traffic....       -1.229e-01 7.462e-02 7.462e-04      7.462e-04
+Competition        2.757e+00 1.001e-01 1.001e-03      1.001e-03
+Number.of.Results -6.084e-10 5.745e-10 5.745e-12      0.000e+00
+sigma2             4.307e+00 1.076e-01 1.076e-03      1.092e-03
+
+2. Quantiles for each variable:
+
+                        2.5%        25%        50%        75%     97.5%
+(Intercept)        2.521e-01  3.618e-01  4.224e-01  4.828e-01 5.924e-01
+Position          -3.541e-03 -1.932e-03 -1.028e-03 -1.187e-04 1.563e-03
+Search.Volume      1.187e-04  2.102e-04  2.578e-04  3.055e-04 3.973e-04
+Traffic....       -2.682e-01 -1.729e-01 -1.232e-01 -7.301e-02 2.511e-02
+Competition        2.562e+00  2.690e+00  2.758e+00  2.825e+00 2.952e+00
+Number.of.Results -1.747e-09 -9.965e-10 -6.059e-10 -2.177e-10 5.162e-10
+sigma2             4.099e+00  4.234e+00  4.305e+00  4.378e+00 4.522e+00
+
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                        Mean        SD  Naive SE Time-series SE
+(Intercept)        4.222e-01 8.799e-02 8.799e-04      8.799e-04
+Position          -1.024e-03 1.318e-03 1.318e-05      1.318e-05
+Search.Volume      2.578e-04 7.063e-05 7.063e-07      7.063e-07
+Traffic....       -1.229e-01 7.462e-02 7.462e-04      7.462e-04
+Competition        2.757e+00 1.001e-01 1.001e-03      1.001e-03
+Number.of.Results -6.084e-10 5.745e-10 5.745e-12      0.000e+00
+sigma2             4.307e+00 1.076e-01 1.076e-03      1.092e-03
+
+2. Quantiles for each variable:
+
+                        2.5%        25%        50%        75%     97.5%
+(Intercept)        2.521e-01  3.618e-01  4.224e-01  4.828e-01 5.924e-01
+Position          -3.541e-03 -1.932e-03 -1.028e-03 -1.187e-04 1.563e-03
+Search.Volume      1.187e-04  2.102e-04  2.578e-04  3.055e-04 3.973e-04
+Traffic....       -2.682e-01 -1.729e-01 -1.232e-01 -7.301e-02 2.511e-02
+Competition        2.562e+00  2.690e+00  2.758e+00  2.825e+00 2.952e+00
+Number.of.Results -1.747e-09 -9.965e-10 -6.059e-10 -2.177e-10 5.162e-10
+sigma2             4.099e+00  4.234e+00  4.305e+00  4.378e+00 4.522e+00
+
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                        Mean        SD  Naive SE Time-series SE
+(Intercept)        4.222e-01 8.799e-02 8.799e-04      8.799e-04
+Position          -1.024e-03 1.318e-03 1.318e-05      1.318e-05
+Search.Volume      2.578e-04 7.063e-05 7.063e-07      7.063e-07
+Traffic....       -1.229e-01 7.462e-02 7.462e-04      7.462e-04
+Competition        2.757e+00 1.001e-01 1.001e-03      1.001e-03
+Number.of.Results -6.084e-10 5.745e-10 5.745e-12      0.000e+00
+sigma2             4.307e+00 1.076e-01 1.076e-03      1.092e-03
+
+2. Quantiles for each variable:
+
+                        2.5%        25%        50%        75%     97.5%
+(Intercept)        2.521e-01  3.618e-01  4.224e-01  4.828e-01 5.924e-01
+Position          -3.541e-03 -1.932e-03 -1.028e-03 -1.187e-04 1.563e-03
+Search.Volume      1.187e-04  2.102e-04  2.578e-04  3.055e-04 3.973e-04
+Traffic....       -2.682e-01 -1.729e-01 -1.232e-01 -7.301e-02 2.511e-02
+Competition        2.562e+00  2.690e+00  2.758e+00  2.825e+00 2.952e+00
+Number.of.Results -1.747e-09 -9.965e-10 -6.059e-10 -2.177e-10 5.162e-10
+sigma2             4.099e+00  4.234e+00  4.305e+00  4.378e+00 4.522e+00
+
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                        Mean        SD  Naive SE Time-series SE
+(Intercept)        4.222e-01 8.799e-02 8.799e-04      8.799e-04
+Position          -1.024e-03 1.318e-03 1.318e-05      1.318e-05
+Search.Volume      2.578e-04 7.063e-05 7.063e-07      7.063e-07
+Traffic....       -1.229e-01 7.462e-02 7.462e-04      7.462e-04
+Competition        2.757e+00 1.001e-01 1.001e-03      1.001e-03
+Number.of.Results -6.084e-10 5.745e-10 5.745e-12      0.000e+00
+sigma2             4.307e+00 1.076e-01 1.076e-03      1.092e-03
+
+2. Quantiles for each variable:
+
+                        2.5%        25%        50%        75%     97.5%
+(Intercept)        2.521e-01  3.618e-01  4.224e-01  4.828e-01 5.924e-01
+Position          -3.541e-03 -1.932e-03 -1.028e-03 -1.187e-04 1.563e-03
+Search.Volume      1.187e-04  2.102e-04  2.578e-04  3.055e-04 3.973e-04
+Traffic....       -2.682e-01 -1.729e-01 -1.232e-01 -7.301e-02 2.511e-02
+Competition        2.562e+00  2.690e+00  2.758e+00  2.825e+00 2.952e+00
+Number.of.Results -1.747e-09 -9.965e-10 -6.059e-10 -2.177e-10 5.162e-10
+sigma2             4.099e+00  4.234e+00  4.305e+00  4.378e+00 4.522e+00
+
+Bayesian analysis on purina data
+
+Iterations = 1001:11000
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 10000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                       Mean       SD  Naive SE Time-series SE
+(Intercept)        0.442408 0.087881 8.788e-04      8.788e-04
+Position          -0.001023 0.001318 1.318e-05      1.318e-05
+Search.Volume      0.134101 0.036788 3.679e-04      3.621e-04
+Traffic....       -0.122848 0.074614 7.461e-04      7.461e-04
+Competition        2.757128 0.099999 1.000e-03      1.000e-03
+Number.of.Results -0.039020 0.036708 3.671e-04      3.671e-04
+sigma2             4.306554 0.107566 1.076e-03      1.092e-03
+
+2. Quantiles for each variable:
+
+                       2.5%       25%       50%        75%    97.5%
+(Intercept)        0.272435  0.382014  0.442541  0.5028848 0.612310
+Position          -0.003547 -0.001929 -0.001025 -0.0001143 0.001553
+Search.Volume      0.062904  0.109257  0.134211  0.1591337 0.206563
+Traffic....       -0.268350 -0.172722 -0.123311 -0.0733135 0.024829
+Competition        2.560896  2.689447  2.757239  2.8240649 2.954015
+Number.of.Results -0.110874 -0.063664 -0.038918 -0.0139135 0.032123
+sigma2             4.098919  4.234203  4.304568  4.3778683 4.521600
+

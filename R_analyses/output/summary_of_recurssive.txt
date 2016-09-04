@@ -1,0 +1,506 @@
+recurssive partition 
+Call:
+rpart(formula = cl, data = g1)
+  n= 1000 
+
+          CP nsplit rel error    xerror       xstd
+1 0.53963215      0 1.0000000 1.0019697 0.08070204
+2 0.08761376      1 0.4603679 0.4713379 0.03741494
+3 0.06107389      2 0.3727541 0.3834135 0.03736064
+4 0.04135640      3 0.3116802 0.3357965 0.02962721
+5 0.02913748      4 0.2703238 0.2928238 0.02438149
+6 0.01364326      5 0.2411863 0.2817822 0.02233683
+7 0.01296639      6 0.2275431 0.2707213 0.02068818
+8 0.01000000      8 0.2016103 0.2576333 0.02026277
+
+Variable importance
+   Search.Volume Traffic.Cost....      Competition 
+              84               14                3 
+
+Node number 1: 1000 observations,    complexity param=0.5396321
+  mean=7.519, MSE=60.65564 
+  left son=2 (806 obs) right son=3 (194 obs)
+  Primary splits:
+      Search.Volume    < 0.8504227  to the left,  improve=0.53963210, (0 missing)
+      Competition      < 0.145      to the right, improve=0.15739100, (0 missing)
+      Traffic.Cost.... < 0.105      to the right, improve=0.01127459, (0 missing)
+  Surrogate splits:
+      Traffic.Cost.... < 0.625      to the left,  agree=0.816, adj=0.052, (0 split)
+
+Node number 2: 806 observations,    complexity param=0.08761376
+  mean=4.712159, MSE=15.01392 
+  left son=4 (311 obs) right son=5 (495 obs)
+  Primary splits:
+      Search.Volume    < -0.0231485 to the left,  improve=0.43915150, (0 missing)
+      Competition      < 0.185      to the right, improve=0.09200512, (0 missing)
+      Traffic.Cost.... < 0.195      to the right, improve=0.01845418, (0 missing)
+  Surrogate splits:
+      Competition < 0.205      to the right, agree=0.646, adj=0.084, (0 split)
+
+Node number 3: 194 observations,    complexity param=0.06107389
+  mean=19.18041, MSE=81.56023 
+  left son=6 (139 obs) right son=7 (55 obs)
+  Primary splits:
+      Search.Volume    < 4.522175   to the left,  improve=0.2341243, (0 missing)
+      Traffic.Cost.... < 0.055      to the right, improve=0.2333550, (0 missing)
+      Competition      < 0.135      to the right, improve=0.1025516, (0 missing)
+  Surrogate splits:
+      Traffic.Cost.... < 2.175      to the left,  agree=0.727, adj=0.036, (0 split)
+
+Node number 4: 311 observations
+  mean=1.472669, MSE=0.7251373 
+
+Node number 5: 495 observations,    complexity param=0.01296639
+  mean=6.747475, MSE=13.25542 
+  left son=10 (64 obs) right son=11 (431 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.125      to the right, improve=0.11475510, (0 missing)
+      Search.Volume    < 0.1517697  to the left,  improve=0.08291982, (0 missing)
+      Competition      < 0.195      to the right, improve=0.04603656, (0 missing)
+
+Node number 6: 139 observations,    complexity param=0.0413564
+  mean=16.43165, MSE=47.38202 
+  left son=12 (46 obs) right son=13 (93 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.035      to the right, improve=0.38087770, (0 missing)
+      Competition      < 0.2        to the right, improve=0.13054960, (0 missing)
+      Search.Volume    < 3.002478   to the left,  improve=0.05446675, (0 missing)
+  Surrogate splits:
+      Competition   < 0.145      to the right, agree=0.777, adj=0.326, (0 split)
+      Search.Volume < 3.685832   to the right, agree=0.676, adj=0.022, (0 split)
+
+Node number 7: 55 observations,    complexity param=0.02913748
+  mean=26.12727, MSE=100.5838 
+  left son=14 (18 obs) right son=15 (37 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.055      to the right, improve=0.31947170, (0 missing)
+      Search.Volume    < 8.32142    to the left,  improve=0.11821120, (0 missing)
+      Competition      < 0.055      to the right, improve=0.06795488, (0 missing)
+  Surrogate splits:
+      Search.Volume < 27.82761   to the right, agree=0.745, adj=0.222, (0 split)
+
+Node number 10: 64 observations
+  mean=3.546875, MSE=8.935303 
+
+Node number 11: 431 observations,    complexity param=0.01296639
+  mean=7.222738, MSE=12.14992 
+  left son=22 (344 obs) right son=23 (87 obs)
+  Primary splits:
+      Search.Volume    < 0.2027663  to the left,  improve=0.15659180, (0 missing)
+      Traffic.Cost.... < 0.015      to the right, improve=0.04582336, (0 missing)
+      Competition      < 0.195      to the right, improve=0.02060343, (0 missing)
+
+Node number 12: 46 observations
+  mean=10.3913, MSE=23.84688 
+
+Node number 13: 93 observations
+  mean=19.41935, MSE=32.04995 
+
+Node number 14: 18 observations
+  mean=18, MSE=45 
+
+Node number 15: 37 observations,    complexity param=0.01364326
+  mean=30.08108, MSE=79.85829 
+  left son=30 (18 obs) right son=31 (19 obs)
+  Primary splits:
+      Search.Volume    < 8.32142    to the left,  improve=0.28007060, (0 missing)
+      Competition      < 0.045      to the left,  improve=0.02232721, (0 missing)
+      Traffic.Cost.... < 0.015      to the right, improve=0.01167938, (0 missing)
+  Surrogate splits:
+      Traffic.Cost.... < 0.015      to the left,  agree=0.676, adj=0.333, (0 split)
+      Competition      < 0.075      to the left,  agree=0.595, adj=0.167, (0 split)
+
+Node number 22: 344 observations
+  mean=6.52907, MSE=8.894504 
+
+Node number 23: 87 observations
+  mean=9.965517, MSE=15.59651 
+
+Node number 30: 18 observations
+  mean=25.22222, MSE=27.61728 
+
+Node number 31: 19 observations
+  mean=34.68421, MSE=85.79501 
+
+recurssive partition 
+Call:
+rpart(formula = cl, data = g1)
+  n= 574 
+
+           CP nsplit rel error    xerror       xstd
+1  0.19509986      0 1.0000000 1.0042526 0.03243767
+2  0.06197107      1 0.8049001 0.8103602 0.03349026
+3  0.04726479      2 0.7429291 0.7809129 0.03625960
+4  0.03189408      3 0.6956643 0.7581489 0.03603787
+5  0.01986879      4 0.6637702 0.7290638 0.03543164
+6  0.01909660      5 0.6439014 0.7268391 0.03641525
+7  0.01473451      6 0.6248048 0.7189570 0.03688867
+8  0.01036123      7 0.6100703 0.7132777 0.03702038
+9  0.01033489      8 0.5997091 0.7170121 0.03786399
+10 0.01000000      9 0.5893742 0.7149116 0.03788243
+
+Variable importance
+Traffic.Cost....      Competition    Search.Volume 
+              45               30               25 
+
+Node number 1: 574 observations,    complexity param=0.1950999
+  mean=21.08362, MSE=283.0627 
+  left son=2 (127 obs) right son=3 (447 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.01  to the right, improve=0.19509990, (0 missing)
+      Search.Volume    < 15    to the left,  improve=0.06540070, (0 missing)
+      Competition      < 0.7   to the right, improve=0.03351785, (0 missing)
+  Surrogate splits:
+      Competition   < 0.895 to the right, agree=0.807, adj=0.126, (0 split)
+      Search.Volume < 1240  to the right, agree=0.789, adj=0.047, (0 split)
+
+Node number 2: 127 observations,    complexity param=0.03189408
+  mean=7.141732, MSE=96.54684 
+  left son=4 (84 obs) right son=5 (43 obs)
+  Primary splits:
+      Search.Volume    < 80    to the left,  improve=0.42263250, (0 missing)
+      Competition      < 0.335 to the right, improve=0.36667860, (0 missing)
+      Traffic.Cost.... < 0.07  to the right, improve=0.09363457, (0 missing)
+  Surrogate splits:
+      Competition      < 0.365 to the right, agree=0.819, adj=0.465, (0 split)
+      Traffic.Cost.... < 1.715 to the left,  agree=0.717, adj=0.163, (0 split)
+
+Node number 3: 447 observations,    complexity param=0.06197107
+  mean=25.04474, MSE=265.1389 
+  left son=6 (136 obs) right son=7 (311 obs)
+  Primary splits:
+      Search.Volume < 15    to the left,  improve=0.08495765, (0 missing)
+      Competition   < 0.005 to the left,  improve=0.08253777, (0 missing)
+  Surrogate splits:
+      Competition < 0.005 to the left,  agree=0.716, adj=0.066, (0 split)
+
+Node number 4: 84 observations
+  mean=2.571429, MSE=6.387755 
+
+Node number 5: 43 observations,    complexity param=0.0190966
+  mean=16.06977, MSE=152.1579 
+  left son=10 (12 obs) right son=11 (31 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.52  to the right, improve=0.4742284, (0 missing)
+      Search.Volume    < 1160  to the left,  improve=0.2415360, (0 missing)
+      Competition      < 0.095 to the right, improve=0.2003611, (0 missing)
+  Surrogate splits:
+      Competition < 0.995 to the right, agree=0.767, adj=0.167, (0 split)
+
+Node number 6: 136 observations,    complexity param=0.01986879
+  mean=17.86765, MSE=301.9972 
+  left son=12 (48 obs) right son=13 (88 obs)
+  Primary splits:
+      Competition < 0.005 to the left,  improve=0.07860028, (0 missing)
+
+Node number 7: 311 observations,    complexity param=0.04726479
+  mean=28.18328, MSE=216.6449 
+  left son=14 (143 obs) right son=15 (168 obs)
+  Primary splits:
+      Competition   < 0.115 to the left,  improve=0.11397860, (0 missing)
+      Search.Volume < 45    to the right, improve=0.01066812, (0 missing)
+  Surrogate splits:
+      Search.Volume < 190   to the right, agree=0.605, adj=0.14, (0 split)
+
+Node number 10: 12 observations
+  mean=2.416667, MSE=7.576389 
+
+Node number 11: 31 observations,    complexity param=0.01036123
+  mean=21.35484, MSE=108.0354 
+  left son=22 (24 obs) right son=23 (7 obs)
+  Primary splits:
+      Search.Volume    < 435   to the left,  improve=0.50266440, (0 missing)
+      Competition      < 0.095 to the right, improve=0.09924683, (0 missing)
+      Traffic.Cost.... < 0.15  to the right, improve=0.08721809, (0 missing)
+  Surrogate splits:
+      Competition < 0.05  to the right, agree=0.871, adj=0.429, (0 split)
+
+Node number 12: 48 observations
+  mean=11.27083, MSE=241.6141 
+
+Node number 13: 88 observations,    complexity param=0.01473451
+  mean=21.46591, MSE=298.2488 
+  left son=26 (66 obs) right son=27 (22 obs)
+  Primary splits:
+      Competition < 0.115 to the right, improve=0.09121555, (0 missing)
+
+Node number 14: 143 observations
+  mean=22.7972, MSE=249.7001 
+
+Node number 15: 168 observations
+  mean=32.76786, MSE=142.7973 
+
+Node number 22: 24 observations
+  mean=17.375, MSE=44.23438 
+
+Node number 23: 7 observations
+  mean=35, MSE=86.28571 
+
+Node number 26: 66 observations
+  mean=18.45455, MSE=282.2782 
+
+Node number 27: 22 observations,    complexity param=0.01033489
+  mean=30.5, MSE=237.3409 
+  left son=54 (9 obs) right son=55 (13 obs)
+  Primary splits:
+      Competition < 0.025 to the left,  improve=0.3215919, (0 missing)
+
+Node number 54: 9 observations
+  mean=20, MSE=254.2222 
+
+Node number 55: 13 observations
+  mean=37.76923, MSE=96.48521 
+
+recurssive partition 
+Call:
+rpart(formula = cl, data = g1)
+  n= 1000 
+
+          CP nsplit rel error    xerror       xstd
+1 0.53963215      0 1.0000000 1.0019697 0.08070204
+2 0.08761376      1 0.4603679 0.4713379 0.03741494
+3 0.06107389      2 0.3727541 0.3834135 0.03736064
+4 0.04135640      3 0.3116802 0.3357965 0.02962721
+5 0.02913748      4 0.2703238 0.2928238 0.02438149
+6 0.01364326      5 0.2411863 0.2817822 0.02233683
+7 0.01296639      6 0.2275431 0.2707213 0.02068818
+8 0.01000000      8 0.2016103 0.2576333 0.02026277
+
+Variable importance
+   Search.Volume Traffic.Cost....      Competition 
+              84               14                3 
+
+Node number 1: 1000 observations,    complexity param=0.5396321
+  mean=7.519, MSE=60.65564 
+  left son=2 (806 obs) right son=3 (194 obs)
+  Primary splits:
+      Search.Volume    < 9000   to the left,  improve=0.53963210, (0 missing)
+      Competition      < 0.145  to the right, improve=0.15739100, (0 missing)
+      Traffic.Cost.... < 0.105  to the right, improve=0.01127459, (0 missing)
+  Surrogate splits:
+      Traffic.Cost.... < 0.625  to the left,  agree=0.816, adj=0.052, (0 split)
+
+Node number 2: 806 observations,    complexity param=0.08761376
+  mean=4.712159, MSE=15.01392 
+  left son=4 (311 obs) right son=5 (495 obs)
+  Primary splits:
+      Search.Volume    < 435    to the left,  improve=0.43915150, (0 missing)
+      Competition      < 0.185  to the right, improve=0.09200512, (0 missing)
+      Traffic.Cost.... < 0.195  to the right, improve=0.01845418, (0 missing)
+  Surrogate splits:
+      Competition < 0.205  to the right, agree=0.646, adj=0.084, (0 split)
+
+Node number 3: 194 observations,    complexity param=0.06107389
+  mean=19.18041, MSE=81.56023 
+  left son=6 (139 obs) right son=7 (55 obs)
+  Primary splits:
+      Search.Volume    < 45000  to the left,  improve=0.2341243, (0 missing)
+      Traffic.Cost.... < 0.055  to the right, improve=0.2333550, (0 missing)
+      Competition      < 0.135  to the right, improve=0.1025516, (0 missing)
+  Surrogate splits:
+      Traffic.Cost.... < 2.175  to the left,  agree=0.727, adj=0.036, (0 split)
+
+Node number 4: 311 observations
+  mean=1.472669, MSE=0.7251373 
+
+Node number 5: 495 observations,    complexity param=0.01296639
+  mean=6.747475, MSE=13.25542 
+  left son=10 (64 obs) right son=11 (431 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.125  to the right, improve=0.11475510, (0 missing)
+      Search.Volume    < 2150   to the left,  improve=0.08291982, (0 missing)
+      Competition      < 0.195  to the right, improve=0.04603656, (0 missing)
+
+Node number 6: 139 observations,    complexity param=0.0413564
+  mean=16.43165, MSE=47.38202 
+  left son=12 (46 obs) right son=13 (93 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.035  to the right, improve=0.38087770, (0 missing)
+      Competition      < 0.2    to the right, improve=0.13054960, (0 missing)
+      Search.Volume    < 30100  to the left,  improve=0.05446675, (0 missing)
+  Surrogate splits:
+      Competition   < 0.145  to the right, agree=0.777, adj=0.326, (0 split)
+      Search.Volume < 36800  to the right, agree=0.676, adj=0.022, (0 split)
+
+Node number 7: 55 observations,    complexity param=0.02913748
+  mean=26.12727, MSE=100.5838 
+  left son=14 (18 obs) right son=15 (37 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.055  to the right, improve=0.31947170, (0 missing)
+      Search.Volume    < 82250  to the left,  improve=0.11821120, (0 missing)
+      Competition      < 0.055  to the right, improve=0.06795488, (0 missing)
+  Surrogate splits:
+      Search.Volume < 273500 to the right, agree=0.745, adj=0.222, (0 split)
+
+Node number 10: 64 observations
+  mean=3.546875, MSE=8.935303 
+
+Node number 11: 431 observations,    complexity param=0.01296639
+  mean=7.222738, MSE=12.14992 
+  left son=22 (344 obs) right son=23 (87 obs)
+  Primary splits:
+      Search.Volume    < 2650   to the left,  improve=0.15659180, (0 missing)
+      Traffic.Cost.... < 0.015  to the right, improve=0.04582336, (0 missing)
+      Competition      < 0.195  to the right, improve=0.02060343, (0 missing)
+
+Node number 12: 46 observations
+  mean=10.3913, MSE=23.84688 
+
+Node number 13: 93 observations
+  mean=19.41935, MSE=32.04995 
+
+Node number 14: 18 observations
+  mean=18, MSE=45 
+
+Node number 15: 37 observations,    complexity param=0.01364326
+  mean=30.08108, MSE=79.85829 
+  left son=30 (18 obs) right son=31 (19 obs)
+  Primary splits:
+      Search.Volume    < 82250  to the left,  improve=0.28007060, (0 missing)
+      Competition      < 0.045  to the left,  improve=0.02232721, (0 missing)
+      Traffic.Cost.... < 0.015  to the right, improve=0.01167938, (0 missing)
+  Surrogate splits:
+      Traffic.Cost.... < 0.015  to the left,  agree=0.676, adj=0.333, (0 split)
+      Competition      < 0.075  to the left,  agree=0.595, adj=0.167, (0 split)
+
+Node number 22: 344 observations
+  mean=6.52907, MSE=8.894504 
+
+Node number 23: 87 observations
+  mean=9.965517, MSE=15.59651 
+
+Node number 30: 18 observations
+  mean=25.22222, MSE=27.61728 
+
+Node number 31: 19 observations
+  mean=34.68421, MSE=85.79501 
+
+recurssive partition 
+Call:
+rpart(formula = cl, data = g1)
+  n= 574 
+
+           CP nsplit rel error    xerror       xstd
+1  0.19509986      0 1.0000000 1.0042526 0.03243767
+2  0.06197107      1 0.8049001 0.8103602 0.03349026
+3  0.04726479      2 0.7429291 0.7809129 0.03625960
+4  0.03189408      3 0.6956643 0.7581489 0.03603787
+5  0.01986879      4 0.6637702 0.7290638 0.03543164
+6  0.01909660      5 0.6439014 0.7268391 0.03641525
+7  0.01473451      6 0.6248048 0.7189570 0.03688867
+8  0.01036123      7 0.6100703 0.7132777 0.03702038
+9  0.01033489      8 0.5997091 0.7170121 0.03786399
+10 0.01000000      9 0.5893742 0.7149116 0.03788243
+
+Variable importance
+Traffic.Cost....      Competition    Search.Volume 
+              45               30               25 
+
+Node number 1: 574 observations,    complexity param=0.1950999
+  mean=21.08362, MSE=283.0627 
+  left son=2 (127 obs) right son=3 (447 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.01  to the right, improve=0.19509990, (0 missing)
+      Search.Volume    < 15    to the left,  improve=0.06540070, (0 missing)
+      Competition      < 0.7   to the right, improve=0.03351785, (0 missing)
+  Surrogate splits:
+      Competition   < 0.895 to the right, agree=0.807, adj=0.126, (0 split)
+      Search.Volume < 1240  to the right, agree=0.789, adj=0.047, (0 split)
+
+Node number 2: 127 observations,    complexity param=0.03189408
+  mean=7.141732, MSE=96.54684 
+  left son=4 (84 obs) right son=5 (43 obs)
+  Primary splits:
+      Search.Volume    < 80    to the left,  improve=0.42263250, (0 missing)
+      Competition      < 0.335 to the right, improve=0.36667860, (0 missing)
+      Traffic.Cost.... < 0.07  to the right, improve=0.09363457, (0 missing)
+  Surrogate splits:
+      Competition      < 0.365 to the right, agree=0.819, adj=0.465, (0 split)
+      Traffic.Cost.... < 1.715 to the left,  agree=0.717, adj=0.163, (0 split)
+
+Node number 3: 447 observations,    complexity param=0.06197107
+  mean=25.04474, MSE=265.1389 
+  left son=6 (136 obs) right son=7 (311 obs)
+  Primary splits:
+      Search.Volume < 15    to the left,  improve=0.08495765, (0 missing)
+      Competition   < 0.005 to the left,  improve=0.08253777, (0 missing)
+  Surrogate splits:
+      Competition < 0.005 to the left,  agree=0.716, adj=0.066, (0 split)
+
+Node number 4: 84 observations
+  mean=2.571429, MSE=6.387755 
+
+Node number 5: 43 observations,    complexity param=0.0190966
+  mean=16.06977, MSE=152.1579 
+  left son=10 (12 obs) right son=11 (31 obs)
+  Primary splits:
+      Traffic.Cost.... < 0.52  to the right, improve=0.4742284, (0 missing)
+      Search.Volume    < 1160  to the left,  improve=0.2415360, (0 missing)
+      Competition      < 0.095 to the right, improve=0.2003611, (0 missing)
+  Surrogate splits:
+      Competition < 0.995 to the right, agree=0.767, adj=0.167, (0 split)
+
+Node number 6: 136 observations,    complexity param=0.01986879
+  mean=17.86765, MSE=301.9972 
+  left son=12 (48 obs) right son=13 (88 obs)
+  Primary splits:
+      Competition < 0.005 to the left,  improve=0.07860028, (0 missing)
+
+Node number 7: 311 observations,    complexity param=0.04726479
+  mean=28.18328, MSE=216.6449 
+  left son=14 (143 obs) right son=15 (168 obs)
+  Primary splits:
+      Competition   < 0.115 to the left,  improve=0.11397860, (0 missing)
+      Search.Volume < 45    to the right, improve=0.01066812, (0 missing)
+  Surrogate splits:
+      Search.Volume < 190   to the right, agree=0.605, adj=0.14, (0 split)
+
+Node number 10: 12 observations
+  mean=2.416667, MSE=7.576389 
+
+Node number 11: 31 observations,    complexity param=0.01036123
+  mean=21.35484, MSE=108.0354 
+  left son=22 (24 obs) right son=23 (7 obs)
+  Primary splits:
+      Search.Volume    < 435   to the left,  improve=0.50266440, (0 missing)
+      Competition      < 0.095 to the right, improve=0.09924683, (0 missing)
+      Traffic.Cost.... < 0.15  to the right, improve=0.08721809, (0 missing)
+  Surrogate splits:
+      Competition < 0.05  to the right, agree=0.871, adj=0.429, (0 split)
+
+Node number 12: 48 observations
+  mean=11.27083, MSE=241.6141 
+
+Node number 13: 88 observations,    complexity param=0.01473451
+  mean=21.46591, MSE=298.2488 
+  left son=26 (66 obs) right son=27 (22 obs)
+  Primary splits:
+      Competition < 0.115 to the right, improve=0.09121555, (0 missing)
+
+Node number 14: 143 observations
+  mean=22.7972, MSE=249.7001 
+
+Node number 15: 168 observations
+  mean=32.76786, MSE=142.7973 
+
+Node number 22: 24 observations
+  mean=17.375, MSE=44.23438 
+
+Node number 23: 7 observations
+  mean=35, MSE=86.28571 
+
+Node number 26: 66 observations
+  mean=18.45455, MSE=282.2782 
+
+Node number 27: 22 observations,    complexity param=0.01033489
+  mean=30.5, MSE=237.3409 
+  left son=54 (9 obs) right son=55 (13 obs)
+  Primary splits:
+      Competition < 0.025 to the left,  improve=0.3215919, (0 missing)
+
+Node number 54: 9 observations
+  mean=20, MSE=254.2222 
+
+Node number 55: 13 observations
+  mean=37.76923, MSE=96.48521 
+

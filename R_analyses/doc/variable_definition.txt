@@ -1,0 +1,27 @@
+Data set variable definitions:-
+
+#Keyword => The keywords bringing users to websites via Google's top 100 organic search result.
+
+#Position => The Position the domain gets in organic search for the given keyword at specified period.
+
+#Previous.Position => Tells about previous position.
+
+#Searched.Volume => The average number of times user have searched for given keyword per month.
+
+#Keyword.Difficulty,Index => An estimate of how difficult it would be to rank well in organic search results for a particular keyword.The higher the percentage,the harder it is to achieve high rankings for given keyword.
+
+#CPC => Average price in the selected currency advertisers pay for a user's click on an ad triggered by given keyword(Google AdWords)
+
+#URL => The URL displayed in search results for the given keyword.
+
+#Traffic => The share of traffic driven to the website with the given keyword for the specified period.
+
+#Traffic.Cost => Estimated price of given keyword in Google AdWords for specified period.
+
+#Competition => Competitive density of advertisers using the given term for their ads. One(1) means the highest competition.
+
+#Number.of.Results => The number of URLs displayed in organic search results for the given keyword.
+
+#SERP.Features => Search engine result page featuring keywords 
+
+#Trend => The interest of search in the given keyword during the period of 12 months.The matrix is based on changes in number of queries per month.
